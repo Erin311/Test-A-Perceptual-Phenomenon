@@ -13,3 +13,4 @@ Run [stroop_effect_test.py](https://github.com/piyush2896/Test-A-Perceptual-Phen
 # Conclusion
 There is a significant difference in the congruent words test and incongruent words test.
 ![Graphical Comparison](visualize.png)
+![Box Graphical Comparison](box_visualize.png)

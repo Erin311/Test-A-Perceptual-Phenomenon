@@ -56,6 +56,17 @@ def visualize_hist(data1, data2, labels, legend_title, legends, savefig=True, sh
     # Show
     plt.show()
 
+
+def visualize_box(data1, data2, labels, savefig=True, show_mean=True):
+    fig = plt.figure(0)
+    ax = fig.add_subplot(111)
+    bp = ax.boxplot([data1, data2])
+    ax.set_xticklabels(labels)
+    if savefig:
+        plt.savefig('box_visualize.png', bbox_inches='tight')
+    plt.show()
+
+
 def perform_ttest(data1, data2):
     """
     Performs t-test on related samples
@@ -88,9 +99,12 @@ print()
 show_stats(incong, 'Incongruent', 'time')
 
 # Visualize plot
-print('\n\n Press Enter to see histogram plot')
+print('\n Press Enter to see Histogram plot')
 input()
 visualize_hist(incong, cong, ['time', 'count'], 'Congruency', ['Congruent', 'Incongruent'])
+print('\n Press Enter to see Box Plot')
+input()
+visualize_box(cong, incong, ['Congruent', 'Incongruent'])
 
 # Perform t test
 print('\n\n Press Enter to Perform t test')
