@@ -76,7 +76,7 @@ def perform_ttest(data1, data2):
     """
     md = np.mean(data1) - np.mean(data2)
     sem = np.sqrt(np.std(data1, ddof=1)+np.std(data1, ddof=1))
-    df = data1.shape[0] + data2.shape[0] - 2
+    df = data1.shape[0] - 1
     t_critical = t.isf([0.025], [[df]])[0][0]
     moe = t_critical * sem
     

@@ -1,5 +1,5 @@
 # Test A Perceptual Phenomenon
-This repository contains all the scripts along with the test report generated to study the (Stroop Effect)[https://en.wikipedia.org/wiki/Stroop_effect].<br/>
+This repository contains all the scripts along with the test report generated to study the [Stroop Effect](https://en.wikipedia.org/wiki/Stroop_effect).<br/>
 
 # Usage
 Run [stroop_effect_test.py](https://github.com/piyush2896/Test-A-Perceptual-Phenomenon/blob/master/stroop_effect_test.py) to see the result.
