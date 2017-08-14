@@ -6,6 +6,8 @@ Run [stroop_effect_test.py](https://github.com/piyush2896/Test-A-Perceptual-Phen
 
 The final report is linked [here](/Stroop_effect_testing_a_perceptual_phenomenon.pdf)
 
+Dataset Used is linked [here](/stroopdata.csv)
+
 ## Dependencies
 1. Numpy
 2. Scipy
